@@ -36,6 +36,7 @@ header{
 	display: flex;
 	height: 100%;
 	list-style: none;
+    align-items: center;
 }
 
 .navbar .size{
@@ -86,6 +87,19 @@ main .container{
 
 .card img{
     width: 100%
+}
+
+.uno{
+    position: relative;
+}
+
+.due{
+    position: absolute;
+    left: 0;
+    }
+
+.due:hover{
+    opacity: 0;
 }
 
 h5{
