@@ -141,4 +141,24 @@ span{
 
 /* footer */
 
-footer
+footer{
+    background-color: rgb(52, 0, 0);
+    height: 100px;
+}
+
+footer .container{
+    height: 100%;
+    display: flex;
+}
+
+footer .footerleft{
+    background-color: #FF6900;
+    width: 650px;
+    height: 100%;
+}
+
+footer .footerright{
+    background-color: aqua;
+    width: 650px;
+    height: 100%;
+}
