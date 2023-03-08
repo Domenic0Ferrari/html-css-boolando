@@ -130,6 +130,11 @@ span{
     text-align: center;
 }
 
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
 .sconto{
     color: white;
     background-color: red;
