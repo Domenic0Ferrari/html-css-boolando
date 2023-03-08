@@ -68,3 +68,20 @@ header{
     padding-inline: 0.2rem;
     justify-content: flex-end;
 }
+
+/* main */
+
+main .container{
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+}
+
+.card{
+    width: calc(100% / 3 - 2rem)
+    }
+
+.card img{
+    width: 100%
+}
