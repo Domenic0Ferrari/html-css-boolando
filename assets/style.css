@@ -49,6 +49,10 @@ header{
     font-weight: bold;
 }
 
+.size:hover{
+    color: black;
+}
+
 .navbar .image{
 	display: flex;
 	align-items: center;
@@ -68,6 +72,10 @@ header{
     font-size: 1.2rem;
     padding-inline: 0.2rem;
     justify-content: flex-end;
+}
+
+.icon:hover{
+    color: black;
 }
 
 /* main */
@@ -128,6 +136,7 @@ span{
     width: 40px;
     height: 40px;
     text-align: center;
+    line-height: 40px;
 }
 
 .heart:hover{
@@ -142,8 +151,10 @@ span{
     position: absolute;
     bottom: 100px;
     width: 50px;
+    height: 1.5rem;
     text-align: center;
     font-weight: bold;
+    line-height: 1.5rem;
 }
 
 .green{
@@ -154,6 +165,8 @@ span{
     bottom: 100px;
     left: 55px;
     width: 100px;
+    height: 1.5rem;
+    line-height: 1.5rem;
     text-align: center;
     font-weight: bold;
 }
@@ -165,6 +178,8 @@ span{
     position: absolute;
     bottom: 100px;
     width: 100px;
+    height: 1.5rem;
+    line-height: 1.5rem;
     text-align: center;
     font-weight: bold;
 }
@@ -211,6 +226,10 @@ footer .footerright{
     font-size: 14px;
 }
 
+.information:hover{
+    color: black;
+}
+
 .searc{
     color: white;
     font-size: 20px;
@@ -228,4 +247,8 @@ ul{
 .icons{
     color: black;
     background-color: white;
+}
+
+.icons:hover{
+    color:blue;
 }
