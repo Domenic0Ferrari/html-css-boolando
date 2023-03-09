@@ -24,6 +24,9 @@ header{
 
 .navbar .container{
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container {
@@ -31,6 +34,16 @@ header{
 	margin-inline: auto;
 	padding-inline: 1rem;
 }
+
+.first{
+    display: flex;
+    align-items: center;
+}
+
+.third{
+    display: flex;
+}
+
 
 .navbar .menu {
 	display: flex;
